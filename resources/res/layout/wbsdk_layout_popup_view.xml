@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="start|center_vertical"
+    android:orientation="vertical"
+    android:background="#f3434551"
+    android:paddingTop="@dimen/tp24"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tp224">
+    <include layout="@layout/wbsdk_layout_popup_view_top_bar"/>
+    <RelativeLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/tp40"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tp112">
+        <TextView
+            android:textSize="@dimen/tp30"
+            android:textColor="@android:color/white"
+            android:gravity="center_vertical"
+            android:id="@+id/popup_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="需要帮你查询吗？"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:background="#1d1e2c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:textSize="@dimen/tp30"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:id="@+id/popup_view_positive_btn"
+            android:background="@drawable/popup_view_btn_bg"
+            android:layout_width="@dimen/tp284"
+            android:layout_height="match_parent"
+            android:text="“需要”"/>
+        <Button
+            android:textSize="@dimen/tp30"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:id="@+id/popup_view_negative_btn"
+            android:background="@drawable/popup_view_btn_bg"
+            android:layout_width="@dimen/tp284"
+            android:layout_height="match_parent"
+            android:text="“不用了”"/>
+    </LinearLayout>
+</LinearLayout>

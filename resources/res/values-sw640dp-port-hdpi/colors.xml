@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tai_sdk_mr_list_bg_color">#ededed</color>
+    <color name="tai_sdk_mr_list_bg_color_night">#2d303c</color>
+    <color name="tai_sdk_mr_list_dist_selected_text_color">#335efc</color>
+    <color name="tai_sdk_mr_list_dist_selected_text_color_night">#ffffffff</color>
+    <color name="tai_sdk_mr_list_dist_text_color">#43484f</color>
+    <color name="tai_sdk_mr_list_dist_text_color_night">#e6e6e6</color>
+    <color name="tai_sdk_mr_list_type_selected_text_color">#335efc</color>
+    <color name="tai_sdk_mr_list_type_selected_text_color_night">#e6e6e6</color>
+    <color name="tai_sdk_mr_list_type_text_color">#8d8d8d</color>
+    <color name="tai_sdk_mr_list_type_text_color_night">#e6e6e6</color>
+    <color name="tai_sdk_mr_schema_text_bg_color">#e9ebef</color>
+    <color name="tai_sdk_mr_schema_text_bg_color_night">#66b1bbd3</color>
+</resources>

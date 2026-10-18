@@ -1,0 +1,110 @@
+{
+  "versionName": "1.0.0",
+  "versionCode": "1",
+  "intentApiScheme":"wecar",
+  "intentApiAction":"com.tencent.wecar.intentapi",
+  "connectSMSPriorityPkgNames": [
+    "com.tencent.taes",
+    "com.tencent.wecar",
+    "com.tencent.wecarnavi",
+    "com.tencent.wecarflow",
+    "com.tencent.wecarspeech"
+  ],
+  "components": [
+    {
+      "name": "MapService",
+      "desc": "地图服务，目前只提供第三方widget、仪表地图创建、销毁等",
+      "type": "server",
+      "bootCompleteLoad": true,
+      "necessaryLoad": true,
+      "persistent": true,
+      "parallelLoad": false,
+      "actionName": "com.tencent.taes.map.ACTION",
+      "supportFeatures": [
+        {
+          "api": "com.tencent.taes.remote.api.map.IMapSurfaceApi",
+          "apiImpl": "com.tencent.taes.remote.impl.map.MapSurfaceRemoteApi",
+          "binderName": "com.tencent.taes.remote.api.map.IMapSurfaceService$Stub"
+        },
+        {
+          "api": "com.tencent.taes.remote.api.search.IPoiSearchApi",
+          "apiImpl": "com.tencent.taes.remote.impl.search.PoiSearchRemoteApi",
+          "binderName": "com.tencent.taes.remote.api.search.IPoiSearchService$Stub"
+        },
+        {
+          "api": "com.tencent.taes.remote.api.routeguide.IRouteGuideApi",
+          "apiImpl": "com.tencent.taes.remote.impl.routeguide.RouteGuideRemoteApi",
+          "binderName": "com.tencent.taes.remote.api.routeguide.IRouteGuideService$Stub"
+        }
+      ]
+    },
+    {
+      "name": "Location",
+      "desc": "定位服务",
+      "type": "server",
+      "bootCompleteLoad": true,
+      "necessaryLoad": true,
+      "persistent": true,
+      "parallelLoad": false,
+      "actionName": "com.tencent.taes.location.ACTION",
+      "supportFeatures": [
+        {
+          "api": "com.tencent.taes.remote.api.location.ILocationApi",
+          "apiImpl": "com.tencent.taes.remote.impl.location.LocationRemoteApi",
+          "binderName": "com.tencent.taes.remote.api.location.ILocationService$Stub"
+        }
+      ]
+    },
+    {
+      "name": "Account",
+      "desc": "账号鉴权服务",
+      "type": "server",
+      "bootCompleteLoad": true,
+      "necessaryLoad": true,
+      "persistent": true,
+      "parallelLoad": false,
+      "actionName": "com.tencent.taes.account.ACTION",
+      "supportFeatures": [
+        {
+          "api": "com.tencent.taes.remote.api.account.IAccountApi",
+          "apiImpl": "com.tencent.taes.remote.impl.account.AccountRemoteApi",
+          "binderName": "com.tencent.taes.remote.api.account.IAccountService$Stub"
+        }
+      ]
+    },
+    {
+      "name": "InfoDispatcher",
+      "desc": "消息分发服务",
+      "type": "server",
+      "bootCompleteLoad": true,
+      "necessaryLoad": true,
+      "persistent": true,
+      "parallelLoad": false,
+      "actionName": "com.tencent.taes.infodispatcher.ACTION",
+      "supportFeatures": [
+        {
+          "api": "com.tencent.taes.remote.api.infodispatcher.IInfoDispatchApi",
+          "apiImpl": "com.tencent.taes.remote.impl.infodispatcher.InfoDispatchRemoteApi",
+          "binderName": "com.tencent.taes.remote.api.infodispatcher.IInfoDispatchService$Stub"
+        }
+      ]
+    },
+    {
+      "name": "Operate",
+      "desc": "运营服务",
+      "type": "server",
+      "bootCompleteLoad": true,
+      "necessaryLoad": true,
+      "persistent": true,
+      "parallelLoad": true,
+      "actionName": "com.tencent.taes.operate.ACTION",
+      "supportFeatures": [
+        {
+          "api": "com.tencent.taes.remote.api.operate.IOperateApi",
+          "apiImpl": "com.tencent.taes.remote.impl.operate.OperateApiRemoteApi",
+          "binderName": "com.tencent.taes.remote.api.operate.IOperateService$Stub"
+        }
+      ]
+    }
+  ]
+}

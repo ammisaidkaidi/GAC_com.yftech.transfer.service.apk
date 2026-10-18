@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="@dimen/tai_sdk_text_size_24"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="@dimen/tai_sdk_text_size_24"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tai_sdk_account_center_guide_area_view_pager_title2_margin_top"/>
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="@dimen/tai_sdk_account_center_guide_area_view_pager_image_size"
+        android:layout_height="@dimen/tai_sdk_account_center_guide_area_view_pager_image_size"
+        android:layout_marginTop="@dimen/tai_sdk_account_center_guide_area_view_pager_image_margin_top"
+        android:layout_marginBottom="@dimen/tai_sdk_account_center_guide_area_view_pager_image_margin_bottom"
+        android:scaleType="fitCenter"/>
+</LinearLayout>

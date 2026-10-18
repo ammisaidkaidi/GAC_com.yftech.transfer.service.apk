@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="n_team_trip_join_title">开启集结吧！设置共同集结点, \n还能边导航边查看伙伴实时位置！</string>
+    <string name="n_team_trip_launch_title">车队出游, 开车接人, 还在操心 \n“你到哪儿了？哪儿见面？”</string>
+    <string name="naviSdk">values-sw640dp</string>
+</resources>

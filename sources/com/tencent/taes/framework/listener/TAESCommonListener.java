@@ -1,0 +1,10 @@
+package com.tencent.taes.framework.listener;
+
+import com.tencent.taes.base.api.INoProguard;
+
+/* loaded from: /home/user/work/dex/classes.dex */
+public interface TAESCommonListener extends INoProguard {
+    void onFail(int i, String str);
+
+    void onSuccess();
+}

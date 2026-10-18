@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carplaydisablewhenr">El proceso de inversión no puede entrar en la interfaz Carplay</string>
+    <string name="carplaynosignalandretry">CarPlay sin conexión, se recomienda reconnectar</string>
+    <string name="carplaynosignalr">CarPlay sin conexión</string>
+</resources>

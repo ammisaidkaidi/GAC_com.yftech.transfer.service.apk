@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_pager_image_height">270dp</dimen>
+    <dimen name="view_pager_image_width">270dp</dimen>
+</resources>

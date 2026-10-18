@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/tai_sdk_tp_24"
+    android:textColor="#ffd9dde2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/wbsdk_bg_page_indicator"
+    android:layout_width="@dimen/tai_sdk_account_center_guide_area_page_indicator"
+    android:layout_height="@dimen/tai_sdk_account_center_guide_area_page_indicator"
+    android:button="@null"/>

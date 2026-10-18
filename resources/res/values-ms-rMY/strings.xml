@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="carplaydisablewhenr">Tidak dapat memasuki antara muka Carplay semasa proses membalikkan</string>
+    <string name="carplaynosignalandretry">No CarPlay signal, please reconnect.</string>
+    <string name="carplaynosignalr">No CarPlay signal</string>
+</resources>
